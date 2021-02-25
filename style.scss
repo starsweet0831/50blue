@@ -7,20 +7,62 @@
 
 // 導覽列
 nav{
-    height: 100px;
     display: grid;
     grid-template-columns: 20% 70% 10%;
-    padding: 20px 30px;
-    align-items: center;
+    text-align: center;
     background: yellow;
+    padding: 35px 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+
     
+
+    #logo img{
+        width: 50px;
+     }
+     
+     #link a{
+         color: #003ABA;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 0 60px;
+        transition: 0.3s;
+        display: inline-block;
+     }
+
+     #link a:hover{
+         color: black;
+         border: 5px black;
+     }
 }
 
-#logo img{
-   width: 30%;
+#banner{
+    .slick-prev {
+        left: 50px;
+        z-index: 2;
+    }
+    .slick-next {
+        right: 50px;
+        z-index: 2;
+    }
+    .slick-dots {
+        bottom: 50px;
+        z-index: 2;
+    }
+
+    @for $i from 1 through 3 {
+        .banner#{$i} {
+            background-image: url(./img/banner#{$i}.jpg);
+            height: 100vh;
+            text-align: center;
+            color: yellow;
+            background-size: cover;
+            
+            &:focus {
+                outline: none;
+            }
+        }
+    }
 }
 
-#link a{
-    padding: 0 35px;
-    text-decoration: none;
-}
