@@ -101,4 +101,28 @@ nav #link a:hover {
 #story img {
   width: 20%;
 }
+
+#drink {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#drink #drink-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#drink #drink-content img {
+  width: 100%;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#drink #drink-content h3 {
+  padding: 5px 0;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
