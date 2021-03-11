@@ -19,7 +19,7 @@ nav {
 }
 
 nav #logo img {
-  width: 50px;
+  width: 90px;
 }
 
 nav #link a {
@@ -107,6 +107,11 @@ nav #link a:hover {
   margin: 0 auto;
 }
 
+#drink h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+
 #drink #drink-content {
   display: -ms-grid;
   display: grid;
@@ -122,7 +127,16 @@ nav #link a:hover {
 }
 
 #drink #drink-content h3 {
+  font-size: 24px;
   padding: 5px 0;
+  text-align: center;
+}
+
+#drink #drink-content ul {
+  text-align: center;
+}
+
+#drink #drink-content li {
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
