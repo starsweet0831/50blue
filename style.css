@@ -13,7 +13,7 @@ nav {
   -ms-grid-columns: 20% 70% 10%;
       grid-template-columns: 20% 70% 10%;
   text-align: center;
-  background: yellow;
+  background: #B0C4DE;
   padding: 35px 0;
   height: 100px;
 }
@@ -134,9 +134,35 @@ nav #link a:hover {
 
 #drink #drink-content ul {
   text-align: center;
+  list-style: none;
 }
 
 #drink #drink-content li {
   text-align: center;
+}
+
+#drink #drink-content button {
+  padding: 4px 10px;
+  border: 1px solid #e0b94c;
+  text-decoration: none;
+  color: #50501e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#drink #drink-content button:hover {
+  background: #f1e74e;
+  color: #913b3b;
+}
+
+footer {
+  background-color: #B0C4DE;
+  margin-top: 80px;
+  padding: 30px;
+  text-align: center;
+}
+
+#starbucks img {
+  width: 90px;
 }
 /*# sourceMappingURL=style.css.map */

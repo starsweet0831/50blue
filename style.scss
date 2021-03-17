@@ -12,7 +12,7 @@ nav{
     display: grid;
     grid-template-columns: 20% 70% 10%;
     text-align: center;
-    background: yellow;
+    background: #B0C4DE;
     padding: 35px 0;
     height: 100px;
 
@@ -107,10 +107,25 @@ nav{
 
         ul{
             text-align: center;
+            list-style: none;
         }
 
         li{
             text-align: center;
+        }
+
+        button{
+            padding: 4px 10px;
+            border: 1px solid #e0b94c;
+            text-decoration: none;
+            color: #50501e;
+            transition:  0.5s;
+            
+        }
+
+        button:hover {
+            background: #f1e74e;
+            color: rgb(145, 59, 59);
         }
     }
 }
@@ -120,3 +135,14 @@ nav{
 
 // 頁尾
 
+footer{
+    background-color: #B0C4DE;
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+}
+
+#starbucks img{
+    width: 90px;
+
+}
