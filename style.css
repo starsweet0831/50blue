@@ -142,12 +142,17 @@ nav #link a:hover {
 }
 
 #drink #drink-content button {
-  padding: 4px 10px;
-  border: 1px solid #e0b94c;
-  text-decoration: none;
-  color: #50501e;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  padding: 10px 0;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  -webkit-transform: 0.5s;
+          transform: 0.5s;
 }
 
 #drink #drink-content button:hover {
