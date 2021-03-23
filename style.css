@@ -19,7 +19,7 @@ nav {
 }
 
 nav #logo img {
-  width: 90px;
+  width: 100px;
 }
 
 nav #link a {
@@ -96,10 +96,28 @@ nav #link a:hover {
   height: 100vh;
   text-align: center;
   background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px auto;
+      grid-template-columns: 500px auto;
 }
 
-#story img {
-  width: 20%;
+#story .popo img {
+  width: 55%;
+  padding-top: 150px;
+}
+
+#story .content {
+  padding: 180px 50px;
+}
+
+#story .content h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#story .content p {
+  font-size: 20px;
 }
 
 #drink {
@@ -169,5 +187,9 @@ footer {
 
 #starbucks img {
   width: 90px;
+}
+
+.title-big {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

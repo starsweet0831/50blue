@@ -19,7 +19,10 @@ nav{
     
 
     #logo img{
-       width: 90px;
+        width: 100px;
+        
+
+       
     }
      
      #link a{
@@ -70,14 +73,32 @@ nav{
 
 #story{
     height: 100vh;
-    text-align: center;
+     text-align: center;
     // line-height: 100vh;
     background-size: cover;
+    display: grid;
+    grid-template-columns: 500px auto;
+
+    .popo img{
+         width: 55%;
+         padding-top: 150px;
+        //  padding-left: 50px;
+    }
+
+    .content{
+        padding: 180px 50px;
+
+        h1{
+            font-size: 50px;
+            margin-bottom: 50px;    
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
 }
 
-#story img{
-    width: 20%;
-}
 
 // 茶飲介紹
 #drink{
@@ -150,4 +171,8 @@ footer{
 #starbucks img{
     width: 90px;
 
+}
+
+.title-big{
+    text-align: center;
 }
