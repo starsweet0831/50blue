@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>50嵐</title>
+    <!-- shake CDN -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- aos CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -43,7 +45,8 @@
     <h1 class="title-big">品牌特色</h1>
     <div id="story" style="background: url(./img/story1.jpg);">
         <div id="product-pic">
-            <img src="./img/story2.png" alt="珍珠奶茶">
+            <img class="animate__animated animate__shakeY" src="./img/story2.png" alt="珍珠奶茶" >
+            <!-- <img class="animate__animated animate__bounce" src="./img/story2.png" alt="珍珠奶茶" > -->
         </div>
         <div class="content">
             <h1>用心 堅持 </h1>
@@ -102,18 +105,25 @@
 
     <!-- 門市據點 -->
     <h1 class="title-big">門市據點</h1>
+    
     <div id="shop">
+        <div>
+
+        </div>
         <div class="shop1">
             <img src="./img/shop1.jpg" alt="">
+            <img src="./img/shop2.jpg" alt="">
+            <img src="./img/shop3.jpg" alt="">
+            <img src="./img/shop4.jpg" alt="">
         </div>
         <div class="shop2">
-            <img src="" alt="">
+           
         </div>
         <div class="shop3">
-            <img src="" alt="">
+            
         </div>
         <div class="shop4">
-            <img src="" alt="">
+           
         </div>
 
 
@@ -137,6 +147,7 @@
     <script>
       AOS.init();
     </script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./main.js"></script>

@@ -139,10 +139,13 @@ nav{
 
 // 門市資訊
 #shop{
-    height: 100vh;
+    // height: 100vh;
+    display: grid;
+    grid-template-columns: 50% auto;
 
     .shop1 img{
-        width: 35%;
+         width: 35%;
+         padding-top: 20px;
     }
 }
 
