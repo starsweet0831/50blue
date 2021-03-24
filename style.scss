@@ -11,22 +11,16 @@ $box-shawod: 0 5px 10px rgba(0, 0, 0, 0.5);
 nav{
     display: grid;
     grid-template-columns: 20% 70% 10%;
-    text-align: center;
     background: #B0C4DE;
-    padding: 35px 0;
-    height: 100px;
-
-    
+    padding: 25px 30px;
+    align-items: center; 
 
     #logo img{
-        width: 100px;
-        
-
-       
+        width: 35%;
     }
      
      #link a{
-        color: #003ABA;
+        color: #283e6e;
         text-decoration: none;
         font-size: 16px;
         padding: 15px 50px;
@@ -35,7 +29,7 @@ nav{
      }
 
      #link a:hover{
-         color: black;
+         color: rgb(247, 205, 123);
          border: 5px black;
      }
 }
@@ -71,30 +65,16 @@ nav{
     }
 }
 
+// 品牌介紹
 #story{
     height: 100vh;
-     text-align: center;
-    // line-height: 100vh;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 500px auto;
+    text-align: center;
 
-    .popo img{
-         width: 55%;
-         padding-top: 150px;
-        //  padding-left: 50px;
-    }
+    #product-pic{
+        padding-top: 100px;
 
-    .content{
-        padding: 180px 50px;
-
-        h1{
-            font-size: 50px;
-            margin-bottom: 50px;    
-        }
-
-        p{
-            font-size: 20px;
+        img{
+             width: 20%;
         }
     }
 }
@@ -102,6 +82,7 @@ nav{
 
 // 茶飲介紹
 #drink{
+    // height: 100vh;
     width: 1280px;
     margin: 0 auto;
 
@@ -157,6 +138,14 @@ nav{
 }
 
 // 門市資訊
+#shop{
+    height: 100vh;
+
+    .shop1 img{
+        width: 35%;
+    }
+}
+
 
 
 // 頁尾

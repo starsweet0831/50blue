@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>50嵐</title>
-    <!-- SHAKE CDN -->
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- aos CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <!-- slick CDN -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -41,7 +42,7 @@
     <!-- 品牌特色 -->
     <h1 class="title-big">品牌特色</h1>
     <div id="story" style="background: url(./img/story1.jpg);">
-        <div class="popo">
+        <div id="product-pic">
             <img src="./img/story2.png" alt="珍珠奶茶">
         </div>
         <div class="content">
@@ -50,16 +51,13 @@
             <p>2. 用最好的材料與設備做出最好的飲品。</p>
             <p>3. 結合理念相同的人經營共同的志業。</p>         
         </div>
-        
-
-
     </div>
 
     <!-- 茶飲介紹 -->
     <div id="drink">
         <h1 class="title-big">茶飲介紹</h1>
         <div id="drink-content">
-            <div class="drink-card">
+            <div class="drink-card" data-aos="fade-right" data-aos-delay="500">
                 <img src="./img/drink1.jpg" alt="">
                 <h3>找茶</h3>
                 <ul>
@@ -72,7 +70,7 @@
                 </ul>
                 <button class="but">MORE</button>
             </div>
-            <div class="drink-card">
+            <div class="drink-card" data-aos="fade-up" data-aos-delay="1000">
                 <img src="./img/drink2.jpg" alt="">
                 <h3>找口感</h3>
                 <ul>
@@ -85,7 +83,7 @@
                 </ul>
                 <button class="but">MORE</button>
             </div>
-            <div class="drink-card">
+            <div class="drink-card" data-aos="fade-left" data-aos-delay="1500">
                 <img src="./img/drink3.jpg" alt="">
                 <h3>找新鮮</h3>
                 <ul>
@@ -103,8 +101,22 @@
 
 
     <!-- 門市據點 -->
+    <h1 class="title-big">門市據點</h1>
     <div id="shop">
-        <h1 class="title-big">門市據點</h1>
+        <div class="shop1">
+            <img src="./img/shop1.jpg" alt="">
+        </div>
+        <div class="shop2">
+            <img src="" alt="">
+        </div>
+        <div class="shop3">
+            <img src="" alt="">
+        </div>
+        <div class="shop4">
+            <img src="" alt="">
+        </div>
+
+
     </div>
 
     <!-- 頁尾 -->
@@ -117,6 +129,14 @@
         <div id="copy">&copy; 版權所有 © 2009 深耕茶業有限公司 Taiwan All Rights Reserved.</div>
     </footer>
 
+
+
+
+    <!-- aos CDN -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./main.js"></script>

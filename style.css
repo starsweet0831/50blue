@@ -12,18 +12,19 @@ nav {
   display: grid;
   -ms-grid-columns: 20% 70% 10%;
       grid-template-columns: 20% 70% 10%;
-  text-align: center;
   background: #B0C4DE;
-  padding: 35px 0;
-  height: 100px;
+  padding: 25px 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav #logo img {
-  width: 100px;
+  width: 35%;
 }
 
 nav #link a {
-  color: #003ABA;
+  color: #283e6e;
   text-decoration: none;
   font-size: 16px;
   padding: 15px 50px;
@@ -33,7 +34,7 @@ nav #link a {
 }
 
 nav #link a:hover {
-  color: black;
+  color: #f7cd7b;
   border: 5px black;
 }
 
@@ -95,29 +96,14 @@ nav #link a:hover {
 #story {
   height: 100vh;
   text-align: center;
-  background-size: cover;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 500px auto;
-      grid-template-columns: 500px auto;
 }
 
-#story .popo img {
-  width: 55%;
-  padding-top: 150px;
+#story #product-pic {
+  padding-top: 100px;
 }
 
-#story .content {
-  padding: 180px 50px;
-}
-
-#story .content h1 {
-  font-size: 50px;
-  margin-bottom: 50px;
-}
-
-#story .content p {
-  font-size: 20px;
+#story #product-pic img {
+  width: 20%;
 }
 
 #drink {
@@ -176,6 +162,14 @@ nav #link a:hover {
 #drink #drink-content button:hover {
   background: #f1e74e;
   color: #913b3b;
+}
+
+#shop {
+  height: 100vh;
+}
+
+#shop .shop1 img {
+  width: 35%;
 }
 
 footer {
