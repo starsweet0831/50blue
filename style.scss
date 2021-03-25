@@ -138,6 +138,21 @@ nav{
 }
 
 // 門市資訊
+form {
+    margin: 10vh auto 0;
+    width: 30vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #283e6e;
+    padding: 8vh 1vh 2vh;
+    border: 1vh solid #4c3c3d;
+    border-radius: 3.5vh;
+    
+}
+
 #shop{
     // height: 100vh;
     display: grid;
