@@ -164,29 +164,6 @@ nav #link a:hover {
   color: #913b3b;
 }
 
-form {
-  margin: 10vh auto 0;
-  width: 30vh;
-  height: 40vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #283e6e;
-  padding: 8vh 1vh 2vh;
-  border: 1vh solid #4c3c3d;
-  border-radius: 3.5vh;
-}
-
 #shop {
   display: -ms-grid;
   display: grid;
@@ -195,8 +172,9 @@ form {
 }
 
 #shop .shop1 img {
-  width: 35%;
+  width: 40%;
   padding-top: 20px;
+  padding-left: 20px;
 }
 
 footer {
