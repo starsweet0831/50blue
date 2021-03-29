@@ -151,6 +151,8 @@ nav #link a:hover {
   margin: 0 auto;
   width: 30%;
   font-size: 14px;
+  background: #3b6a96;
+  color: aliceblue;
   border: none;
   border-radius: 5px;
   margin-bottom: 50px;
@@ -175,6 +177,42 @@ nav #link a:hover {
   width: 40%;
   padding-top: 20px;
   padding-left: 20px;
+}
+
+form {
+  border: 2px solid #3f6699;
+  margin-left: 35%;
+  margin-top: 15%;
+  width: 28%;
+  height: 30vh;
+  float: left;
+}
+
+form #select {
+  text-align: center;
+}
+
+form #select #city, form #select #area, form #select #input {
+  border: 1px solid #146585;
+  margin: 20px 5px;
+  width: 40%;
+  color: #146585;
+  padding: 8px;
+}
+
+form #select #input {
+  width: 90%;
+  margin: 5px;
+}
+
+form #select #submit_bt {
+  background: #146585;
+  color: #FFFFFF;
+  margin: 10px auto;
+  height: 30px;
+  width: 50%;
+  margin: 15px;
+  border: none;
 }
 
 footer {
