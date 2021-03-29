@@ -173,16 +173,38 @@ nav #link a:hover {
       grid-template-columns: 50% auto;
 }
 
+#shop .shop1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#shop .shop1 div:focus {
+  outline: none;
+}
+
 #shop .shop1 img {
-  width: 40%;
-  padding-top: 20px;
-  padding-left: 20px;
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin: 0 30px;
+  -webkit-transform: 0.5s;
+          transform: 0.5s;
+}
+
+#shop .shop1 img:hover {
+  border-radius: 5px;
 }
 
 form {
+  background-image: url(./img/43486.jpg);
   border: 2px solid #3f6699;
-  margin-left: 35%;
-  margin-top: 15%;
+  opacity: .8;
+  margin: 100px auto;
   width: 28%;
   height: 30vh;
   float: left;
@@ -228,5 +250,16 @@ footer {
 
 .title-big {
   text-align: center;
+}
+
+#arrow {
+  background-image: url(./img/arrow.png);
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
